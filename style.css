@@ -1,0 +1,297 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Nunito Sans;
+
+}
+
+.conteiner {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--oq);
+    /* padding-right: 100px; */
+    padding: 0 33px;
+}
+
+.color-head {
+    background: var(--bos);
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    height: 80px;
+
+}
+
+.Dark {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 5%;
+}
+
+h1 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+header>button {
+    background: none;
+    border: none;
+    color: var(--oq);
+}
+
+
+:root {
+    --oq: white;
+    --bos: #2B3844;
+    --ma: #202C36;
+
+}
+
+body {
+    background-color: var(--ma);
+}
+
+.darkb {
+    --oq: black;
+    --bos: rgb(145, 145, 145);
+    --ma: white;
+}
+
+.search-icon {
+    left: 30px;
+    position: absolute;
+    color: var(--oq);
+}
+
+.search>input {
+    margin: 48px 0 48px 0px;
+    width: 480px;
+    height: 56px;
+    padding-left: 75px;
+    background-color: var(--bos);
+    border: none;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--oq);
+    position: relative;
+    padding-right: 25px;
+}
+
+
+
+.search {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: var(--oq);
+    background: var(--bos);
+    box-shadow: 0px 0px 7px 2px #00000008;
+    width: 238px;
+    height: 250px;
+    border-radius: 5px;
+
+
+
+}
+
+.flag>h2 {
+    margin: 42px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.flag>.img {
+    width: auto;
+    height: 160px;
+    margin-top: -11px;
+    border-radius: 5px 5px 0 0;
+}
+
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    padding-bottom: 135px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+
+
+    justify-content: center;
+}
+
+.moe {
+    width: 238px;
+    height: 160px;
+    margin-top: -11px;
+
+
+}
+
+.moe2 {
+    width: 238px;
+    height: 160px;
+}
+
+@media(max-width:834px) {
+
+    .search>input {
+        width: 720px;
+        height: 101px;
+
+    }
+
+    .search-icon {
+        font-size: 30px;
+    }
+
+    header {
+        width: 834px;
+        height: 80px;
+
+    }
+
+    .flags {
+        gap: 240px;
+
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .search {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 24.55px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .Dark {
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.55px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+}
+
+@media(max-width:375px) {
+
+    .search>input {
+        width: 343px;
+        height: 48px;
+
+
+    }
+
+    .search-icon {
+        font-size: 20px;
+    }
+
+    header {
+        width: 375px;
+        height: 80px;
+
+
+    }
+
+    /* 
+    .flags {
+        gap: 240px;
+
+    } */
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .search {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+    }
+
+    .Dark {
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16.37px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+    }
+
+}
